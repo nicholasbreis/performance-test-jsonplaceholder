@@ -105,25 +105,6 @@ Isso executa os três níveis de carga automaticamente e salva os CSVs na pasta 
 docker-compose run locust-10u
 ```
 
----
-
-## Geração do relatório (ponto extra)
-
-Após rodar os testes e gerar os CSVs, execute:
-
-```bash
-pip install pandas matplotlib
-python generate_report.py
-```
-
-O relatório `relatorio.pdf` será gerado automaticamente com gráficos de:
-
-- Tempo de resposta por endpoint (p90, p95)
-- Throughput (req/s) por nível de carga
-- Comparativo de escalabilidade
-
----
-
 ## Estrutura do projeto
 
 ```
