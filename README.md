@@ -110,7 +110,6 @@ docker-compose run locust-10u
 ```
 .
 ├── locustfile.py         # Cenários de teste
-├── generate_report.py    # Geração automática de relatório
 ├── docker-compose.yml    # Orquestração Docker
 ├── Dockerfile            # Imagem do Locust
 ├── results/              # CSVs gerados (criado automaticamente)
