@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+GET,GET /posts/{id} — detalhe,CatchResponseError('Status inesperado: 0'),2,2026-06-19T04:07:37Z,2026-06-19T04:07:37Z
+GET,GET /users — listar usuários,CatchResponseError('Status inesperado: 0'),2,2026-06-19T04:07:37Z,2026-06-19T04:07:38Z
+POST,POST /comments — criar comentário,CatchResponseError('Status inesperado: 0'),1,2026-06-19T04:07:37Z,2026-06-19T04:07:37Z
+GET,GET /posts — listar todos,CatchResponseError('Status inesperado: 0'),1,2026-06-19T04:07:38Z,2026-06-19T04:07:38Z
